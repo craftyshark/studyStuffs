@@ -1,0 +1,23 @@
+1.
+
+result_dct = {}
+
+for d in (dict1, dict2, dict3):
+    result_dct.update(d)
+
+2.
+
+def checkKey (dct, item):
+    if (item in dct):
+        print("it's in here")
+
+3. 
+
+for n in range(1-15):
+    print (n + "," +  n*n)
+
+4. 
+
+im not sure
+
+5. 
