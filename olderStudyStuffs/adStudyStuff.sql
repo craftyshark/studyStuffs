@@ -37,3 +37,41 @@ WHERE CustomerID = 5 AND Total > 100
 
 -- Q4
 
+
+
+
+
+
+
+
+
+
+
+
+-- Q7
+
+/*
+import pandas as pd
+from sqlachemy import create_engine
+
+
+# We will need to create an SQLAchemy engine 
+engine = create_engine("sqlite:///CompanyDB.sqlite")
+
+#next up, is connection 
+conn = engine.connect()
+
+#after that, lets run our query
+result = conn.query("
+SELECT *
+JOIN Books ON Books.AuthorID AND Authors.AuthorID")
+
+
+
+
+
+
+
+
+
+*/
